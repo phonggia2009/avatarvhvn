@@ -1,0 +1,9 @@
+.openai/
+.vercel/
+node_modules/
+.env
+.env.*
+qa-frame.rgba
+qa-composite.png
+*.tar.gz
+qa.cjs
