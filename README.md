@@ -19,6 +19,18 @@ Mở http://localhost:4180. Không cần cài thư viện hoặc chạy build.
 3. File `vercel.json` đã đặt Output Directory là `dist`, không cần lệnh build hoặc install.
 4. Chọn Deploy.
 
+## Theo dõi lượt truy cập trên Vercel
+
+Website đã tích hợp Vercel Web Analytics qua `dist/analytics.js`.
+
+1. Mở project trong Vercel, chọn **Analytics**, rồi nhấn **Enable** nếu chưa bật.
+2. Sau khi bật, triển khai lại bản mới nhất trong **Deployments → Redeploy** để Vercel cung cấp endpoint Analytics.
+3. Truy cập website production. Xem số khách và lượt xem trang trong **Analytics** sau khi dữ liệu được xử lý.
+
+Không ghi nhận lượt truy cập localhost. Tích hợp chỉ dùng thống kê lượt xem trang mặc định; không gửi ảnh chân dung, tên file hay dữ liệu Canvas. Nếu chưa bật Analytics, tính năng tạo avatar vẫn hoạt động bình thường.
+
+Hướng dẫn chính thức: https://vercel.com/docs/analytics/quickstart
+
 ## Chức năng
 
 - Chọn, đổi ảnh; kéo, chụm hai ngón tay, dùng thanh thu phóng hoặc phím mũi tên để căn chỉnh.
