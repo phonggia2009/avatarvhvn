@@ -1,0 +1,17 @@
+{
+  "name": "avatarvhvn",
+  "version": "1.0.0",
+  "description": "Website tiếng Việt ghép ảnh chân dung với khung PNG gốc cho Ngày Văn hóa Việt Nam",
+  "type": "module",
+  "scripts": {
+    "dev": "python -m http.server 4180 --directory dist",
+    "build": "echo 'No build step required for static site'",
+    "lint": "echo 'No linter configured'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vercel/analytics": "^1.6.1"
+  }
+}
